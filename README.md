@@ -31,7 +31,7 @@ The `myAlert` variable is a json that you would have declared like so:
 
 `var myAlert = {nature:myNature, content:"this is an alert!"}; `
 
-The `myAlert` will have the value of the nature of the alert you want to display, you have the choice between:
+The `myNature` will have the value of the nature of the alert you want to display, you have the choice between:
 
 * `Natures.SUCCESS`
 * `Natures.WARNING`
