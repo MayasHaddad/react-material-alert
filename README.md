@@ -68,4 +68,9 @@ React.render(<App />,
 
 *react-material-alert* uses [flexbox](http://www.w3.org/TR/css-flexbox-1/)
 
+### Changelog ###
+
+- Cursor now is pointer when hovering over close button
+- Click on close button callback added through props
+
 [dependencies-image-url]: https://david-dm.org/MayasHaddad/react-material-alert.svg
