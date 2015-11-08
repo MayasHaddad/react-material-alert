@@ -48,6 +48,10 @@ var Alert = require('react-material-alert').Alert;
 
 var Natures = require('react-material-alert').Natures;
 
+var sayTheyHitClose = function() {
+    console.log('they hit the close button captain!');
+};
+
 var App = React.createClass({
     render: function() {
         return <div>
@@ -56,7 +60,8 @@ var App = React.createClass({
                     nature: Natures.SUCCESS,
                     content: "it is a <strong>success</strong>!"
                   }}
-                  id={"alert_1"} />
+                  id={"alert_1"}
+                  closeCallback={sayTheyHitClose} />
             </div>;
     }
 });
