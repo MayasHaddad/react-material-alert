@@ -1,9 +1,6 @@
-"use strict";
-
-var Alert = require('./lib/Alert.js');
-var Natures = require('./lib/Natures.js');
+'use strict'
 
 module.exports = {
-    Alert: Alert,
-    Natures: Natures
-};
+  Alert: require('./lib/Alert.js').default,
+  Natures: require('./lib/Natures.js').default
+}
