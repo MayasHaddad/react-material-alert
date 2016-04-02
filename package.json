@@ -2,6 +2,10 @@
   "name": "react-material-alert",
   "version": "2.0.0",
   "main": "index.js",
+  "scripts": {
+      "build": "babel ./src --out-dir ./lib",
+      "prepublish": "npm run build"
+  },
   "dependencies": {
     "react": "^0.14.0"
   },
